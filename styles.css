@@ -40,7 +40,7 @@ section {
   justify-content: flex-end; /* shift right */
   align-items: center;
   column-gap: 4rem;
-  padding-right: 7rem;
+  padding-right: 1px;
   width: 100%; /* occupy 100% of remaining container */
   max-width: 1530px;
 }
@@ -65,7 +65,7 @@ section {
   display: flex;
   min-height: 50vh;
   max-height: 670px;
-  max-width: 1920px;
+  max-width: 2220px;
 }
 
 .title-image {
@@ -73,7 +73,7 @@ section {
   height: 71vh; /* responsive */
   min-height: 599px;
   max-height: 670px;
-  max-width: 1920px;
+  max-width: 2220px;
   object-fit: cover; /* cover, retain ratio */
 }
 
