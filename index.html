@@ -15,19 +15,20 @@
   </head>
   <body>
     <main>
-      <header class="header-wrapper">
+      <header id="header" class="header-wrapper">
         <!--HEADER-->
         <img
           src="https://github.com/aless-x-code/image-hosting/blob/main/Laser%20Tech(1).png?raw=true"
           alt="logo"
           class="header-logo"
+          id="header-img"
         />
-        <nav class="header-nav">
-          <p class="navitem 1-features"><a href="#features">Features</a></p>
+        <nav id="nav-bar" class="header-nav">
+          <p class="navitem 1-features"><a class="nav-link" href="#features">Features</a></p>
           <p class="navitem 2-howitworks">
-            <a href="#howitworks">How it works</a>
+            <a class="nav-link"  href="#howitworks">How it works</a>
           </p>
-          <p class="navitem 3-pricing"><a href="#products">Products</a></p>
+          <p class="navitem 3-pricing"><a class="nav-link"  href="#products">Products</a></p>
         </nav>
       </header>
       <section class="title-wrapper">
@@ -159,13 +160,18 @@
             Subscribe to Laser Technologies newsletter to receive exclusive
             weekly updates of the industry, our product’s updates, and much more
           </p>
-          <label for="newsletter" class="newsletter-label">Email: </label>
-          <input
-            type="email"
-            required
-            class="newsletter-input"
-            id="newsletter"
-          />
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label for="newsletter" class="newsletter-label">Email: </label>
+            <input
+              name="email"
+              type="email"
+              required
+              class="newsletter-input"
+              id="email"
+              placeholder="@"
+            />
+            <input type="submit" id="submit" value="Submit"></input>
+            </form>
         </div>
       </section>
       <section class="footer-wrapper">

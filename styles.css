@@ -294,7 +294,7 @@ section {
   margin-bottom: 1rem;
 }
 
-input {
+#email {
   background-color: grey;
   border: none;
 }
